@@ -3,18 +3,18 @@ pipeline {
     stages {
         stage('Build and Dockerize') {
             steps {
-                sh 'docker-compose build'
+                sh 'sudo docker-compose build'
             }
         }
         stage('Deploy to Docker') {
             steps {
-                sh 'docker-compose up -d'
+                sh 'sudo docker-compose up -d'
             }
         }
     }
     post {
         always {
-            sh 'docker-compose down'
+            sh 'sudo docker-compose down'
         }
     }
 }
