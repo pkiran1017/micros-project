@@ -1,4 +1,5 @@
-from django.http import HttpResponse
+from django.contrib.auth.views import LoginView
+from django.shortcuts import render
 
-def endpoint1(request):
-    return HttpResponse("This is microservice1, endpoint1")
+class CustomLoginView(LoginView):
+    template_name = 'microservice1/login.html'

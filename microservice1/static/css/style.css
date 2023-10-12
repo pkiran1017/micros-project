@@ -1,0 +1,8 @@
+/* microservice1/static/css/style.css */
+.login-form {
+    max-width: 300px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    background-color: #f9f9f9;
+}
