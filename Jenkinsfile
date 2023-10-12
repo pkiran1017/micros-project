@@ -3,7 +3,7 @@ pipeline {
 
     environment {
         DOCKER_HUB_USERNAME = 'pkiran1017'  // Replace with your Docker Hub username
-        DOCKER_HUB_PASSWORD = 'Pkiran@101714@'        // Replace with your Docker Hub password
+        DOCKER_HUB_PASSWORD = 'Pkiran@783707@'        // Replace with your Docker Hub password
         DOCKER_COMPOSE_FILE = 'docker-compose.yml'
     }
 
